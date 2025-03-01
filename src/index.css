@@ -1,0 +1,131 @@
+@import "tailwindcss";
+body{
+  background-color: white;
+
+}
+.parent{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  height: 255px;
+  padding-top: 20px;
+  /* background-color: blue; */
+}
+.Dash_U{
+  background-color: grey;
+  color: white;
+  width: 800px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  border-radius: 20px ;
+}
+.left_side{
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  gap: 10px;
+  column-gap: 10px;
+}
+.right_side{
+  display: flex;
+  flex-direction: column;
+  align-content: flex-end;
+  column-gap: 10px;
+  gap: 10px;
+  font-size: 16px;
+}
+.h1A{
+  font-size: 40px;
+  font-weight: bold;
+}
+.h1B{
+  font-size: 30px;
+  font-weight: bold;
+}
+.same_l{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.second_dash{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  height: 340px;
+  /* background-color: yellow; */
+  align-content: center;
+  gap: 110px;
+}
+.first_2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+.second_2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.third_2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: flex-start;
+}
+.ten_days{
+  background-color: red;
+  color: white;
+  border-radius: 15px;
+  padding-left: 7px;
+  padding-right: 7px;
+  margin-top: 20px;
+}
+.ten_days:hover{
+  background-color: blue;
+}
+.widgets{
+  background-color: lightcyan;
+  border-radius: 20px;
+  padding: 10px;
+  margin-right: 10px ;
+  max-width: 220px;
+  display: flex;
+  align-items:flex-start;
+  flex-direction: column;
+}
+.lower_d{
+  max-width: 1800px;
+  max-height: 110px;
+  display: flex;
+  flex-direction: row;
+  overflow-x: auto;
+  margin-left: 120px;
+  margin-right: 120px;
+}
+.lower_d::-webkit-scrollbar{
+  display: none;
+}
+.Gh{
+  font-size: 25px;
+}
+.parent_c{
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  margin-top: 30px;
+  margin-left: 140px;
+  margin-right: 140px;
+  height: 500px;
+  padding: 20px;
+  color: aliceblue;
+}
+.child1_c{
+  display: flex;
+  flex-direction: row;
+  margin-top: 7px;
+}
