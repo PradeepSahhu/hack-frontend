@@ -3,7 +3,8 @@ import react from "@vitejs/plugin-react-swc";
 import tailwindcss from "@tailwindcss/vite";
 
 // https://vite.dev/config/
+
 export default defineConfig({
-  base: "/",
-  plugins: [react(), tailwindcss()],
+  plugins: [react()],
+  base: "/", // Ensure base path is set correctly
 });
